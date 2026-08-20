@@ -1,4 +1,4 @@
-# Curriculum Learning for Wordle RL agents via Latent Action Space Exploitation
+# Curriculum Learning for Wordle RL agents
 This is a mini-project for the course CS-439: Optimization for Machine Learning at EPFL.
 
 ##  Setup
