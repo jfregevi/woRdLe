@@ -7,26 +7,28 @@ pip install -r requirements.txt
 ```
 ## Project Structure
 ```
-├── results                     <- Directory for saving results
+├── results                 <- Directory for saving results
 │
-│── src                         <- Source code
-│   ├── data                    <- Data directory
-│   ├── env                     <- Environment directory
-│   ├── models                  <- Model directory
+├── src                     <- Source code
+│   ├── data                <- Data directory
+│   ├── env                 <- Environment directory
+│   └── models              <- Model directory
 │
-│── curriculum.py               <- File for training using a curriculum of increasing difficulty
+├── README.md
 │
-│── naive.py                    <- File for training without curriculum
+├── curriculum.py           <- File for training using a curriculum of increasing difficulty
 │
-│── warmup.py                   <- File for training using a randomized curriculum
+├── literature.bib          <- Literature references
 │
-├── results.ipynb               <- Notebook with curriculum definition, final results and plots
+├── naive.py                <- File for training without curriculum
 │
-├── requirements.txt            <- File for installing python dependencies
+├── report.pdf              <- Project research report
 │
-├── literature.bib              <- Literature references
+├── requirements.txt        <- File for installing python dependencies
 │
-└── README.md
+├── results.ipynb           <- Notebook with curriculum definition, final results and plots
+│
+└── warmup.py               <- File for training using a randomized curriculum
 ```
 
 ## Project Description
